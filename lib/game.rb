@@ -61,7 +61,6 @@ class Game
       end
 
       puts 'Thanks for playing! You can always resume this session by choosing from the saved games!'.green
-      puts @key.class
       SaveService.make_save(name, self)
     end
   end
