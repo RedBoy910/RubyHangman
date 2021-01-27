@@ -13,13 +13,13 @@ module SaveService
 
     input = gets.chomp
 
-    path = '/home/tudor_pasca/Documents/theOdinProject/RubyHangman/saves/' + input.strip
+    path = 'saves/' + input.strip
     #puts path
 
     until File.exist? path
       puts 'Invalid choice, try again'
       input = gets.chomp
-      path = '/home/tudor_pasca/Documents/theOdinProject/RubyHangman/saves/' + input.strip
+      path = 'saves/' + input.strip
       #puts path
     end
 
@@ -29,7 +29,7 @@ module SaveService
   def self.make_save(name, instance)
     filename = "saves/#{name}"
 
-    puts filename
+    #puts filename
 
     File.new(filename, 'w')
 
