@@ -1,11 +1,5 @@
 require_relative 'save_service.rb'
-require 'colorize'
-require 'bundler/inline'
-
-gemfile true do
- source 'http://rubygems.org'
- gem 'colorize'
-end
+require_relative 'colors.rb'
 
 # handles the hangman game
 class Game
