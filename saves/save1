@@ -1,0 +1,17 @@
+--- !ruby/object:Game
+key: instill
+tries: 6
+word:
+- i
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- i
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+guesses:
+- a
+- e
+- i
+- o
+- u

@@ -1,0 +1,18 @@
+--- !ruby/object:Game
+key: veritable
+tries: 8
+word:
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- i
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- l
+- "\e[0;32;49m_\e[0m"
+guesses:
+- s
+- i
+- l
+- y

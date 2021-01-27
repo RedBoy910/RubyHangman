@@ -1,0 +1,16 @@
+--- !ruby/object:Game
+key: placebo
+tries: 7
+word:
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- "\e[0;32;49m_\e[0m"
+- b
+- "\e[0;32;49m_\e[0m"
+guesses:
+- x
+- y
+- z
+- b
